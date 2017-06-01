@@ -12,7 +12,7 @@ curl_setopt_array($curl, array(
   CURLOPT_CUSTOMREQUEST => "GET",
   CURLOPT_SSL_VERIFYPEER => 0,
   CURLOPT_HTTPHEADER => array(
-    "authorization: Basic dG9ueUBpZHhicm9rZXIuY29tOkxpbnhub3chMTczQDM0",
+    "authorization: [Desk Auth Code]",
     "cache-control: no-cache"
   ),
 ));
