@@ -70,8 +70,6 @@ $userName = doCurl($curlUrl);
 	
 if(!in_array("Client Onboarding",$value["labels"]) && !in_array("Spam",$value["labels"])){	
 
-var_dump($value["labels"])."<p>";
-	
 array_push($usersWithCases,$userName["name"]);
 }
 }
